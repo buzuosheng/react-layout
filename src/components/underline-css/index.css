@@ -1,0 +1,11 @@
+h2 code {
+  background: linear-gradient(to right, #43e97b, blue)
+    no-repeat right bottom;
+  background-size: 0 2px;
+  transition: background-size 1s;
+}
+
+h2 code:hover {
+  background-position: left bottom;
+  background-size: 100% 2px;
+}
