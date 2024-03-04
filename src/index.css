@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -68,5 +69,14 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@layer components {
+  .under-line {
+    @apply bg-gradient-to-r from-[#43e97b] to-[blue] bg-no-repeat bg-right-bottom
+    bg-[length:0_2px]
+    hover:bg-left-bottom hover:bg-[length:100%_2px]
+    transition-[background-size] duration-1000;
   }
 }

@@ -1,5 +1,5 @@
 h2 code {
-  background: linear-gradient(to right, #43e97b, blue)
+  background: linear-gradient(to right, #FFD700, #008000)
     no-repeat right bottom;
   background-size: 0 2px;
   transition: background-size 1s;
